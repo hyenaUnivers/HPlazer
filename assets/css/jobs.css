@@ -1,0 +1,141 @@
+/*JOBS*/
+
+.jobs{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 350px;
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    
+}
+.card .header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.card .cardbody{
+    padding: 10px;
+}
+.btn-see{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(to right, red , yellow);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    color: white;
+    font-size: 1.5em;
+   position: absolute;
+   bottom: 0;
+   right: 4px;
+}
+
+
+.trie-recherche{
+    padding: 5px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    width: 100hv;
+    height:60px;
+    align-items: center;
+    background-color: rgb(78, 74, 74);
+    border-radius: 15px;
+   padding-left: 150px;
+
+    
+}
+.trie-recherche div{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.search-btn-float{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-image: linear-gradient(to right, red, yellow);
+	color:#FFF;
+	border-radius: 50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.search-btn-float a i{
+   font-size: 30px;
+  padding: 10px;
+  color: black;
+}
+
+.par-date, .par-domaine,.par-localisation, .par-pays{
+    justify-content: center;
+}
+
+/*Drop down elements*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+     
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: #ff7200;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+ .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff7200;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ff7200;
+  }
+  
+  .dropdown:hover .dropdown-content,.dopbtn:hover .dropdown-content {
+    display: block;
+  }

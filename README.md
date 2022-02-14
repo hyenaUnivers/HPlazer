@@ -1,2 +1,0 @@
-# HPlazerTemplate
- Hplazer

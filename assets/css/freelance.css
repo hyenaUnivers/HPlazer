@@ -1,0 +1,64 @@
+.columnfrelance{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.freelances:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.frelancegauche h2{
+    color: #ff7200;
+    margin-top: 2px;
+    font-size: 30px;
+}
+
+.frelancegauche h5{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+.titles-freelance{
+
+    overflow-x: hidden;
+}
+
+.frelancegauche , .frelance-elmts-droit{
+    width: 50%;
+}
+
+.frelance-elmts-droit{
+    text-align: right;
+    align-items:flex-end;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+.frelance-elmts-droit button{
+    border: none;
+    background-image: linear-gradient(to right,red, yellow);
+    border-radius: 10px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.localisation i, .badge-freelance i{
+    color: #ff7200;
+    padding-top: 2px;
+    margin-right:5px;
+
+}

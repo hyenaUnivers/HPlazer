@@ -1,0 +1,32 @@
+.icondonnate{
+font-size: 30px;
+ padding: 5px;
+  color:red;
+}
+.donnationcontainer{
+    text-align: center;
+}
+.btndonnate{
+    width: 240px;
+    height: 40px;
+    background-image: linear-gradient(to right, red , yellow);;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    text-align: center;
+    padding: 4px;
+    font-size: 30px;
+    margin-left: 75%;
+
+}
+
+
+.btndonnate a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}

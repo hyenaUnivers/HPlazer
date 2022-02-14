@@ -1,0 +1,129 @@
+.contact {  
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.left {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Main column */
+.right {
+  flex: 70%;
+  padding: 10px;
+   background-image: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+
+
+}
+
+.logo-contact img{
+width: 100%;
+height: 500px;
+border-radius: 10px;
+}
+.contact-header{
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.contact-header h2{
+  font-size: 40px;
+  color: #ff7200;
+}
+.contact-header p{
+  font-size: 20px;
+
+}
+
+.contact-form
+{
+  margin: auto;
+  height: 500px;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+
+}
+
+.text-area{
+  height: 150px;
+  width: 100%;
+  color: white;
+}
+
+
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+ .iconcontact {
+  padding: 10px;
+  background: #ff7200;
+  color: white;
+  min-width: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.input-field:focus {
+  border: 2px solid red;
+}
+
+/* Set a style for the submit button */
+
+
+.sendbtn{
+  width: 240px;
+  height: 40px;
+  background-image: linear-gradient(to right, red , yellow);;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.4s ease;
+  align-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+
+}
+
+
+
+
+
+.titre-employeur{
+  font-size: 26px;
+  margin-bottom: 40px;
+  border: 1px solid ;
+  border-radius: 10px;
+  background-color: white;
+  text-transform:uppercase ;
+  color: #ff7200;
+  padding: 5px;
+  text-align: center;
+}
